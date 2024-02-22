@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,600&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Chivo Mono', monospace;
+
+    }
+
+    body {
+        background-image: linear-gradient(to bottom right, rgb(118, 240, 183), rgb(154, 225, 235), rgb(21, 252, 51));
+
+    }
+
+    #signinform {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .form {
+        border: 2px solid rgb(8, 8, 8);
+        border-radius: 25px;
+        display: inline-block;
+        background-color: rgb(169, 215, 231);
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 15px 0px;
+    }
+
+    .input {
+        width: 70%;
+        margin: 10px 0;
+        padding: 20px;
+        border-radius: 25px;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: inset 0 0 10px black;
+    }
+
+    .btn {
+        background-image: linear-gradient(to bottom right, rgb(118, 240, 183), rgb(154, 225, 235), rgb(21, 252, 51));
+        width: 30%;
+        margin: 15px 0;
+        padding: 20px;
+        border-radius: 25px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .btn input{
+        background-image: linear-gradient(to bottom right, rgb(118, 240, 183), rgb(154, 225, 235), rgb(21, 252, 51));
+        border: none;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <div id="signinform">
+        <div class="form">
+            <h1>Sign Up</h1>
+            <form action="">
+                <input class="input" type="text" placeholder="username" name="" id=""><br>
+                <input class="input" type="text" placeholder="Email Address" name="" id=""><br>
+                <input class="input" type="password" placeholder="enter your password" name="" id=""><br>
+                <input class="input" type="password" placeholder="re-enter your password" name="" id=""><br>
+                <button class="btn">
+                <input type="button" value="Sign Up">
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

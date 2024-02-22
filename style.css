@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+
+body{
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ==================================================== navbar start ==================================================== */
+
+header {
+    width: 100%;
+    height:88px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.37);
+    top: 0px;
+    position:sticky;
+}
+
+.logo{
+    border: 4px groove red;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 20px;
+    /* width: 150px;
+    height: 80px; */
+    
+}
+
+.header img{
+    height: 85px;
+    width: 115px;
+    margin-top: -11px;
+}
+
+.header h1{
+    color: red;
+    text-shadow: 3px 2px black;
+    line-height: 0px;
+    text-align: center;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.navlist li .items:hover{
+    cursor: pointer;
+    background-color: rgb(133, 245, 245);
+    color:rgb(5, 5, 5);
+    text-decoration: underline;
+}
+
+
+.navlist li {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 10px;
+    
+}
+
+.navlist li .items{
+    background-color: rgb(215, 243, 243);
+    text-decoration: none;
+    border: 2px groove black;
+    margin: 5px ;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+
+.btn{
+    width:80px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 20px;
+    margin-top: 23px;
+    
+}
+
+button a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgb(133, 245, 245);
+    color:rgb(5, 5, 5);
+    cursor: pointer;
+}
+
+
+/* ============================================================= navbar end =================================================== */
+
+
+/* ============================================================ About start =================================================== */
+
+
+.container1{
+    display: flex;
+    margin-top: 22px;
+}
+
+.container2{
+    display: flex;
+    margin-top: 22px;
+}
+
+.aboutimg{
+    border: 2px groove black;
+    border-radius: 50px;
+}
+
+.containt{
+    border: 2px solid green ;
+    background-color: honeydew;
+    text-align: center;
+    border-radius: 50px;
+    width: 50%;
+       
+}
+
+
+/* =========================================================== About End =================================================  */
+
+ /* ========================================================= Gallary start ================================================ */
+
+
+#gallary{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration-line: overline;
+}
+
+#gallary .gallerynav{
+    border: 8px groove rgb(252, 249, 249);
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+
+#gallary .gallerynav ul{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top:0px;
+    background-color: rgba(2, 2, 2, 0.473);
+    padding: 20px;
+    list-style: none;
+    
+}
+
+
+#gallary .gallerynav ul a{
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid rgb(252, 250, 250);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+
+.gallerynav ul a:hover{
+    background-color: rgb(55, 0, 66);
+}
+
+
+#tema-owner, #TopFbooks, #BestBio{
+    margin-top: 10px;
+}
+
+.imgs{
+    width: 230px;
+    height: 280px;
+    border: 10px groove whitesmoke;
+    margin: 5px;
+}
+
+
+/*  ========================================================= Gallary End ================================================  */
+
+/*  ========================================================= contact us start ================================================  */
+
+#contactUs{
+    background-color: antiquewhite;
+    margin-top: 45px;
+    padding: 50px 0px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.info{
+    background-color: aliceblue;
+    width: 210px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+
+.conlogo{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.contform{
+    border: 2px solid black;
+    background-color: lightblue;
+    width: 70%;
+    height: 250px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.contform h1{
+    margin: 25px 0;
+}
+
+
+.contform input{
+    width: 40%;
+    padding: 8px;
+    margin:5px 0px ;
+}
+
+form .submitbtn{
+    width: 20%;
+    cursor: pointer;
+}
+
+/* ========================================================= contact us end ================================================ */
+
+
+/* ========================================================= Footer start ================================================== */
+
+
+footer h3{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+}
